@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Azure Naming Helper",
+  "version": "1.4.0",
+  "description": "Generiert Azure-Ressourcennamen nach deinem Naming-Standard und füllt sie im Azure-Portal aus.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://portal.azure.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Azure Naming Helper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://portal.azure.com/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
