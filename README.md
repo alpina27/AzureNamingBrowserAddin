@@ -3,6 +3,13 @@ Browser Addin to generate names for the Azure WebGUI
 
 Ein leistungsstarkes Browser-Add-in, das konsistente Azure-Ressourcennamen nach CAF-Best-Practices direkt im Azure Portal generiert – inklusive hunderten Ressourcentypen, Custom Patterns und automatischer Felderkennung.
 
+<img width="1897" height="1580" alt="image" src="https://github.com/user-attachments/assets/5b6e680d-1cf4-441d-b7c1-c9f037705ac0" />
+
+<img width="549" height="292" alt="image" src="https://github.com/user-attachments/assets/3bb8a90b-ca17-44c8-876a-8ae85aceea97" />
+
+<img width="539" height="776" alt="image" src="https://github.com/user-attachments/assets/5c995777-a542-461a-9048-07d7463de5be" />
+
+
 Wer viel im Azure Portal arbeitet, kennt das Problem:
 Jede Ressource braucht einen konsistenten, sauberen Namen – idealerweise nach CAF-Best Practices.
 Nach der 20. Ressource wird das aber schnell mühsam oder fehleranfällig.
