@@ -16,7 +16,7 @@ Nach der 20. Ressource wird das aber schnell mühsam oder fehleranfällig.
 
 Um mir selbst das Leben leichter zu machen, habe ich ein kleines, aber extrem hilfreiches Chrome-Plugin entwickelt:
 
-##Azure Naming Browser Addin
+ <h2> ##Azure Naming Browser Addin  </h2>
 
 Unterstützt offizielle Azure CAF-Abkürzungen
 inkl. erweiterter Liste und eigenem „Divers“-Untermenü für Spezialressourcen
@@ -36,7 +36,7 @@ Automatisches Ausfüllen in das richtige Feld (keine Interferenzen mit der globa
 
 Extrem schneller Workflow für Architekten, DevOps, Consultants & Admins
 
-##Installation (derzeit)
+<h2> ##Installation (derzeit) </h2>
 
 Aktuell ist das Plugin noch nicht im Chrome Web Store, daher muss zum Installieren der:
 
