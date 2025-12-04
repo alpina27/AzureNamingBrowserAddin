@@ -45,4 +45,10 @@ Chrome-Entwicklermodus aktiviert werden
 
 Das dauert 5 Sekunden und funktioniert erstmal zuverlässig ...
 
+1) Download .zip und entpacken + an den richtigen Pfad kopieren, wo es dauerhaft bleiben kann.
+   <img width="416" height="303" alt="image" src="https://github.com/user-attachments/assets/d92300a6-1ed1-44ec-a345-50f1b0de1adc" />
+2) In Chrome extension öffnen
+   <img width="406" height="294" alt="image" src="https://github.com/user-attachments/assets/f054a42b-25d1-484e-959b-cd55477966ef" />
+
+
 ##Wie es weitergeht: tbd
