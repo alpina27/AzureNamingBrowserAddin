@@ -3,10 +3,39 @@ Browser Addin to generate names for the Azure WebGUI
 
 Ein leistungsstarkes Browser-Add-in, das konsistente Azure-Ressourcennamen nach CAF-Best-Practices direkt im Azure Portal generiert – inklusive hunderten Ressourcentypen, Custom Patterns und automatischer Felderkennung.
 
-## Features
+Wer viel im Azure Portal arbeitet, kennt das Problem:
+Jede Ressource braucht einen konsistenten, sauberen Namen – idealerweise nach CAF-Best Practices.
+Nach der 20. Ressource wird das aber schnell mühsam oder fehleranfällig.
 
-### CAF-konforme Abkürzungen  
-Unterstützt sowohl die gängigen Azure-Resource-Abbreviations als auch seltene Ressourcen (unter dem Menüpunkt **Divers**).
+Um mir selbst das Leben leichter zu machen, habe ich ein kleines, aber extrem hilfreiches Chrome-Plugin entwickelt:
 
+##Azure Naming Browser Addin
 
+Unterstützt offizielle Azure CAF-Abkürzungen
+inkl. erweiterter Liste und eigenem „Divers“-Untermenü für Spezialressourcen
 
+Eigene Naming-Patterns pro Ressourcentyp
+Beispiel: vnet-{Env}-{Location}-{Application}-{Rand4}
+
+Felder: Environment, Location, Application → moderne Naming-Standards
+
+Direkt im Azure Portal nutzbar
+
+Rechtsklick → Azure Naming → Ressourcentyp wählen
+
+Button „AZ Name“ im Portal → gleiche Auswahl inkl. Divers
+
+Automatisches Ausfüllen in das richtige Feld (keine Interferenzen mit der globalen Suche)
+
+Extrem schneller Workflow für Architekten, DevOps, Consultants & Admins
+
+##Installation (derzeit)
+
+Aktuell ist das Plugin noch nicht im Chrome Web Store, daher muss zum Installieren der:
+
+Chrome-Entwicklermodus aktiviert werden
+(→ chrome://extensions → Entwicklermodus → „Entpackte Erweiterung laden“)
+
+Das dauert 5 Sekunden und funktioniert zuverlässig – wird aber nicht für Endnutzer & Unternehmen die finale Variante bleiben.
+
+##Wie es weitergeht: tbd
