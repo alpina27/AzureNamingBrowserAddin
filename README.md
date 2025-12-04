@@ -43,6 +43,6 @@ Aktuell ist das Plugin noch nicht im Chrome Web Store, daher muss zum Installier
 Chrome-Entwicklermodus aktiviert werden
 (→ chrome://extensions → Entwicklermodus → „Entpackte Erweiterung laden“)
 
-Das dauert 5 Sekunden und funktioniert zuverlässig – wird aber nicht für Endnutzer & Unternehmen die finale Variante bleiben.
+Das dauert 5 Sekunden und funktioniert erstmal zuverlässig ...
 
 ##Wie es weitergeht: tbd
