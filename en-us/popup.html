@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Azure Naming Helper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Azure Naming</h1>
+
+    <div class="field">
+      <label for="resourceType">Ressourcentyp</label>
+      <select id="resourceType"></select>
+    </div>
+
+    <div class="field">
+      <label for="pattern">
+        Pattern for selected type<br>
+        <small>placeholder: {Type}, {Env}, {Location}, {Application}, {Rand4}</small>
+      </label>
+      <input type="text" id="pattern" />
+    </div>
+
+    <hr>
+
+    <div class="field">
+      <label for="env">Environment (Env)</label>
+      <input type="text" id="env" placeholder="z.B. dev, test, prod" />
+    </div>
+
+    <div class="field">
+      <label for="location">Location (Location)</label>
+      <input type="text" id="location" placeholder="z.B. gewe, ew, de, neu" />
+    </div>
+
+    <div class="field">
+      <label for="application">Application (Application)</label>
+      <input type="text" id="application" placeholder="z.B. sap, crm, billing" />
+    </div>
+
+    <button id="saveConfig">Save configuration</button>
+
+    <hr>
+
+    <button id="generate">Generate name & insert into the Azure Portal</button>
+
+    <div class="field">
+      <label for="result">Generated Name</label>
+      <input type="text" id="result" readonly />
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
